@@ -4,7 +4,7 @@
 }
 
 .img-invest { 
-  background-image:url("/style/img/investimento\ 2.jpg");
+  background-image:url("/style/img/photo-of-people-looking-on-laptop-3182812.jpg");
   background-size: 100%;
   background-position: center;
   opacity: 1;
@@ -13,7 +13,7 @@
 .items-navegacao {
   display: flex;
   flex-basis: auto;
-  color: rgb(255, 239, 15);
+  color: #ffffff;
 }
 
 h2 {
@@ -27,18 +27,52 @@ h2 {
   display: flex;
 }
 
-p {
+.txt-banner p {
   color: aliceblue;
   font-size: 100%;
+  max-width: 450px;
   margin-top: 0px;
   margin-left: 50px;
   display: flex;
 }
 
 .btao {
-  border: black;
-  border-radius: 1px;
   margin-left: 50px;
   margin-bottom: 30px;
 }
 
+.secao {
+  margin: 40px 0 40px 0;
+ 
+}
+
+.cm-funciona {
+  margin-top: 60px;
+}
+
+.header-color {
+  background-color: #041425;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  flex-direction: ;
+}
+
+.useful { 
+  width: 10px;
+  margin-left: 50px;
+}
+
+.company {
+  width: 10px;
+  padding: 0;
+}
+
+.main-office {
+  width: 10px;
+  padding: 0;
+}
+
+.rede-social img {
+  margin: 5px;
+}
