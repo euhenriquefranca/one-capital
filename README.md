@@ -1,6 +1,8 @@
-
+<h2 align="center"> 
+	One Capital
+</h2>
 <h1 align="center">  
-  <img src="https://github.com/euhenriquefranca/one-capital/blob/master/gif.gif" width="60%"/>
+  <img src="https://github.com/euhenriquefranca/one-capital/blob/master/gif.gif" width="70%"/>
 </h1>
 
 ## :bookmark: Sobre
