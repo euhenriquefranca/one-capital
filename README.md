@@ -1,1 +1,4 @@
-<![alt](https://https://imgur.com/dIxRkms)>
+<p align="center">
+    <img src="/img/demo.gif">
+</p>
+
