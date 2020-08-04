@@ -1,10 +1,13 @@
 const express = require("express");
 const app = express();
-const port = 3002;
 
-app.use(express.static('public'));
-app.use(express.static('./views'));
+app.use(express.static(__dirname + "/views"));
+app.use(express.static(__dirname + "/public"));
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+app.get("/", (req, res) => {
+  res.sendFile("index.html");
+});
+
+app.listen(process.env.PORT || 3001, () => {
+  console.log(`Rodando ${process.env.PORT || 3001}`);
 });
