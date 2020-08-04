@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/aos/dist/aos.css" />
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@700&display=swap" rel="stylesheet" />
   <title>One Capital</title>
 </head>
@@ -44,10 +45,11 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron jumbotron-with-background rounded-0 ">
-      <div class="container mt-4">
-        <h1 class=" mr-2">Seu investimento em boas mãos</h1>
+      <div class="container mt-4" data-aos="fade-down">
+        <h1 class="mr-2">Seu investimento em boas mãos</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a
-          jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+          jumbotron and three supporting pieces of content. Use it as a starting point to create something more
+          unique.
         </p>
         <p class="btn-group">
           <a class="btn btn-warning btn-sm mr-2" href="#" role="button">Saiba mais &raquo;</a>
@@ -59,7 +61,7 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="col-md-4">
           <img src="/img/trofeu.svg" class="card-img-top rounded mx-auto d-block mb-2" style="width: 60px;" alt="...">
           <h2 class="text-center">Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
@@ -67,7 +69,8 @@
             Donec sed odio dui. </p>
           <p><a class="btn btn-secondary btn-block" href="#" role="button">View details &raquo;</a></p>
         </div>
-        <div class="col-md-4">
+
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="col-md-4">
           <img src="/img/investimento.svg" class="card-img-top rounded mx-auto d-block mb-2" style="width: 60px;"
             alt="...">
           <h2 class="text-center">Heading</h2>
@@ -76,7 +79,8 @@
             Donec sed odio dui. </p>
           <p><a class="btn btn-secondary btn-block" href="#" role="button">View details &raquo;</a></p>
         </div>
-        <div class="col-md-4">
+
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="col-md-4">
           <img src="/img/escudo.svg" class="card-img-top rounded mx-auto d-block mb-2" style="width: 60px;" alt="...">
           <h2 class="text-center">Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
@@ -84,7 +88,9 @@
             Donec sed odio dui.</p>
           <p><a class="btn btn-secondary btn-block" href="#" role="button">View details &raquo;</a></p>
         </div>
+
       </div>
+
 
       <hr>
 
@@ -151,6 +157,10 @@
   <script src="/jquery/jquery.js"></script>
   <script src="/popper.js/dist/popper.js"></script>
   <script src="/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/aos/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
